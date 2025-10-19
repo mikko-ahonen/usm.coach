@@ -23,6 +23,11 @@ body {
   background-color: #36589C !important;
 }
 
+.navbar-nav .nav-link.active {
+  color: #F4DE4C !important;
+  font-weight: 500;
+}
+
 /* Content styling */
 .subtitle {
   color: #36589C;
@@ -38,7 +43,6 @@ body {
 /* Image responsiveness */
 img {
   max-width: 100%;
-  height: auto;
 }
 
 /* List styling for browser default lists */
@@ -59,18 +63,18 @@ cite {
 
 /* Footer styling to match usm.tools */
 .page-footer {
-  background-color: #212529;
-  color: #ffffff;
-  padding: 3rem 0 1rem 0;
+  background-color: #37474f;
+  color: #fefefe;
+  padding: 40px 0;
+  width: 100%;
 }
 
 .page-footer a {
-  color: #ffffff;
+  color: #039be5 !important;
   text-decoration: none;
 }
 
 .page-footer a:hover {
-  color: #adb5bd;
   text-decoration: underline;
 }
 
