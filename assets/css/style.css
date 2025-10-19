@@ -1,7 +1,17 @@
 /* Custom styles to match usm.tools */
 
+:root {
+  --bs-primary: #36589C;
+  --bs-secondary: #F4DE4C;
+  --bs-dark: #36589C;
+  --bs-body-bg: #fefefe;
+  --bs-link-color: #36589C;
+  --bs-link-hover-color: #2b4678;
+}
+
 body {
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #fefefe;
 }
 
 /* Navbar customization */
@@ -9,9 +19,13 @@ body {
   font-size: 1.5rem;
 }
 
+.navbar.bg-dark {
+  background-color: #36589C !important;
+}
+
 /* Content styling */
 .subtitle {
-  color: #0d6efd;
+  color: #36589C;
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
