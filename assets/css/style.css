@@ -24,8 +24,8 @@ body {
 }
 
 .navbar-nav .nav-link.active {
-  color: #F4DE4C !important;
-  font-weight: 500;
+  color: #ffffff !important;
+  font-weight: bold;
 }
 
 /* Content styling */
@@ -76,6 +76,10 @@ cite {
 
 .page-footer a:hover {
   text-decoration: underline;
+}
+
+.page-footer img {
+  margin-bottom: 20px;
 }
 
 .page-footer h5 {
