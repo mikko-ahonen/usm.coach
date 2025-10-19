@@ -1,0 +1,28 @@
+title: USM Coach
+description: USM Coach helps customers become self-sufficient in solving their service management needs
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
