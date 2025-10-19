@@ -1,7 +1,7 @@
-/* Custom styles to complement Bootstrap */
+/* Custom styles to match usm.tools */
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 /* Navbar customization */
@@ -41,6 +41,36 @@ ul.browser-default li {
 /* Quote block styling */
 cite {
   font-style: italic;
+}
+
+/* Footer styling to match usm.tools */
+.page-footer {
+  background-color: #212529;
+  color: #ffffff;
+  padding: 3rem 0 1rem 0;
+}
+
+.page-footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.page-footer a:hover {
+  color: #adb5bd;
+  text-decoration: underline;
+}
+
+.page-footer h5 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.page-footer ul {
+  margin-bottom: 1rem;
+}
+
+.page-footer ul li {
+  margin-bottom: 0.5rem;
 }
 
 /* Custom spacing utilities */
